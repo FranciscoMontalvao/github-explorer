@@ -4,7 +4,7 @@ export const RepositoryItem = ({repo}) => {
       <strong>{repo.name ?? 'Defalt'}</strong>
       <p>{repo.description}</p>
 
-      <a href={repo.link}>Acessar repositório</a>
+      <a href={repo.html_url}>Acessar repositório</a>
     </li>
   )
 }
